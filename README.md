@@ -24,10 +24,9 @@ Then import the package:
 import criteo_marketing_transition 
 ```
 
-### Setuptools
+### Manual Installation using [Setuptools](http://pypi.python.org/pypi/setuptools)
 
-Install via [Setuptools](http://pypi.python.org/pypi/setuptools).
-
+Download the code or clone the repository locally, then execute the following command:
 ```sh
 python setup.py install --user
 ```
@@ -41,9 +40,15 @@ import criteo_marketing_transition
 ## Example
 Please see [examples/](examples/) for full examples to get a valid token and make a call to the API.
 
+```sh
+python ./examples/portfolio.py [client_id] [client_secret]
+```
+
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://api.criteo.com*
+The developers documentation is available at: *https://developers.criteo.com*.
+
+All URIs are relative to *https://api.criteo.com*.
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
