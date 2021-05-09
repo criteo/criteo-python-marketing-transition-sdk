@@ -4,7 +4,7 @@ from setuptools import setup, find_packages  # noqa: H301
 import os
 
 NAME = "criteo_marketing_transition"
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 # To install the library, run the following
 #
 # python setup.py install
@@ -19,7 +19,7 @@ README_CONTENT_TYPE='text/markdown'
 PACKAGE_LONG_DESCRIPTION = """# Criteo Marketing Transition SDK for Python
 [![](https://img.shields.io/pypi/pyversions/criteo-marketing.svg)](https://pypi.org/project/criteo-marketing-transition/)
 
-IMPORTANT: This Python package links to Criteo production environment. Any test applied here will thus impact real campaigns.
+IMPORTANT: This Python package links to Criteo production environment. Any test applied here will thus impact real data.
 
 ## Requirements.
 
@@ -30,16 +30,16 @@ Python 2.7 and 3.5+
 
 
 ```sh
-pip install criteo_marketing
+pip install criteo_marketing_transition
 ```
-(you may need to run `pip` with root permission: `sudo pip install criteo_marketing`)
+(you may need to run `pip` with root permission: `sudo pip install criteo_marketing_transition`)
 
 Then import the package:
 ```python
-import criteo_marketing
+import criteo_marketing_transition
 ```
 
-Full documentation on [Github](https://github.com/criteo/criteo-python-marketing-sdk).
+Full documentation on [Github](https://github.com/criteo/criteo-python-marketing-transition-sdk).
 
 ## Disclaimer
 
@@ -52,11 +52,11 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR TH
 setup(
     name=NAME,
     version=VERSION,
-    description="Criteo API Transition Swagger",
+    description="Criteo Marketing Transition SDK",
     author_email="",
     author=AUTHOR,
     url="https://github.com/criteo/criteo-python-marketing-transition-sdk",
-    keywords=[AUTHOR, "OpenAPI-Generator", "Criteo API Transition Swagger"],
+    keywords=[AUTHOR, "OpenAPI-Generator", "Criteo Marketing Transition SDK"],
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
