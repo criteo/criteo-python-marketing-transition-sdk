@@ -31,7 +31,7 @@ class ResponseReadAdSet(object):
                             and the value is json key in definition.
     """
     openapi_types = {
-        'data': 'list[ReadModelReadAdSet]',
+        'data': 'ReadModelReadAdSet',
         'warnings': 'list[ProblemDetails]',
         'errors': 'list[ProblemDetails]'
     }
@@ -63,7 +63,7 @@ class ResponseReadAdSet(object):
 
 
         :return: The data of this ResponseReadAdSet.  # noqa: E501
-        :rtype: list[ReadModelReadAdSet]
+        :rtype: ReadModelReadAdSet
         """
         return self._data
 
@@ -73,7 +73,7 @@ class ResponseReadAdSet(object):
 
 
         :param data: The data of this ResponseReadAdSet.  # noqa: E501
-        :type: list[ReadModelReadAdSet]
+        :type: ReadModelReadAdSet
         """
 
         self._data = data
