@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**data** | [**list[ReadModelReadAdSet]**](ReadModelReadAdSet.md) |  | [optional] 
+**data** | [**ReadModelReadAdSet**](ReadModelReadAdSet.md) |  | [optional] 
 **warnings** | [**list[ProblemDetails]**](ProblemDetails.md) |  | [optional] 
 **errors** | [**list[ProblemDetails]**](ProblemDetails.md) |  | [optional] 
 
