@@ -346,7 +346,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **search_ad_sets**
-> ResponseReadAdSet search_ad_sets(request_ad_set_search=request_ad_set_search)
+> ResponsesReadAdSet search_ad_sets(request_ad_set_search=request_ad_set_search)
 
 
 
@@ -386,7 +386,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ResponseReadAdSet**](ResponseReadAdSet.md)
+[**ResponsesReadAdSet**](ResponsesReadAdSet.md)
 
 ### Authorization
 
